@@ -80,7 +80,7 @@ const about = () => (
 
 about.getInitialProps = async ({ req, query }) => {
   // TODO: aşağıdaki satırda bulunan adresi kendi sunucu adresinle değiştirmelisin
-  const res = await fetch(`http://necatiarman.herokuapp.com/api/post/${query.postId}`);
+  const res = await fetch(`http://necatiarmanblog.herokuapp.com/api/post/${query.postId}`);
   const json = await res.json();
   return { post: json.post };
 };
