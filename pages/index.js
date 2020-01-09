@@ -3,6 +3,7 @@ import fetch from "isomorphic-unfetch";
 import Head from "next/head";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
+import Menu from "./Menu";
 
 const Home = ({ posts }) => (
   <div className="container">
@@ -11,21 +12,10 @@ const Home = ({ posts }) => (
       <link rel="icon" href="/favicon.ico" />
       <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"/>
       <script data-ad-client="ca-pub-2037585543989384" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    </Head> 
-    <div className="hero">
-      <h1 className="hero-title">Necati ARMAN</h1>
-      <div className="hero-social-links">
-        <Link href="https://www.instagram.com/necati_arman_offical/">
-          <a className="social-link">Instagram</a>
-        </Link>
-        <Link href="https://www.facebook.com/profile.php?id=100003946455226">
-          <a className="social-link">facebook</a>
-        </Link>
-        <div className="hakkında">            
-          <a href="/about" className="hakkındayazı">Hakkında</a>
-        </div>
-      </div>
-    </div>
+    </Head>
+
+    <Menu></Menu>
+
     {posts.map(post => (
       <div className="blog">
         <h2 className="blog-title">

@@ -2,40 +2,32 @@ import React from "react";
 import fetch from "isomorphic-unfetch";
 import Head from "next/head";
 import Link from "next/link";
-import ReactMarkdown from "react-markdown";
+import Menu from "./Menu";
 
 const about = () => (
   <div className="container">
     <Head>
       <title>Home</title>
       <link rel="icon" href="/favicon.ico" />
+      <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"/>
     </Head>
-    <div className="hero">
-      <h1 className="hero-title">Necati ARMAN</h1>
-      <div className="hero-social-links">
-        <Link href="https://www.instagram.com/necati_arman_offical/">
-          <a className="social-link">Instagram</a>
-        </Link>
-        <Link href="https://www.facebook.com/profile.php?id=100003946455226">
-          <a className="social-link">facebook</a>
-        </Link>
-        <div className="hakkında">            
-          <a href="/about" className="hakkındayazı">Hakkında</a>
-        </div>
-      </div>
-    </div>
 
+    <Menu></Menu>
+
+    <div className="yazı">
+      <img src="minion.png" alt="my"/>
+    </div>
     <style jsx>{`
       .container {
-        max-width: 650px;
         width: 100%;
         margin: 0 auto;
         font-family: 'Indie Flower', cursive;
+        background-color:#ebc8b2;
       }
       .hero{
         text-align: center;
         margin -20px 0 0 0 ;
-        
+        background-color: #808080;
       }
       .social-link {
         margin-right: 8px;
@@ -47,7 +39,6 @@ const about = () => (
       .blog-date {
         text-align: right;
         color: red;
-        margin 12px 0 48px 0;
         padding: 0 5px 5px 0;
       }
       a {
@@ -57,6 +48,8 @@ const about = () => (
       .blog{
         background-color:#e5b79a;
         border-radius:15px;
+        max-width: 650px;
+        margin: auto;
       }
       .blog-title{
         padding: 5px 0 0 5px;
@@ -69,10 +62,19 @@ const about = () => (
         height:40px;
         background-color: #e5b79a;
         border-radius: 8px;
+        max-width: 650px;
+        margin: auto;
       }
       .hakkındayazı{
         text-align: center;
         color: black;
+      }
+      .yazı{
+        margin: auto;
+        height: auto;
+        background-color: red;
+        max-width: 650px;
+        border-radius:5px;
       }
     `}</style>
   </div>
