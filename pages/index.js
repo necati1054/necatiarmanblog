@@ -55,9 +55,7 @@ const Home = ({ posts }) => (
         border-radius:15px;
         max-width: 650px;
         margin: auto;
-        /*position: relative;
-        float: left;
-        height: 250px;*/
+        
       }
       .blog-title{
         padding: 5px 0 0 5px;
