@@ -14,7 +14,7 @@ const BlogPost = ({ post }) => (
       <script data-ad-client="ca-pub-2037585543989384" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </Head>
 
-    <Menu></Menu>
+    <Menu></Menu>yarn de
 
     <div className="blog">
       <h2 className="blog-title">
