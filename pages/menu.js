@@ -22,7 +22,7 @@ const menu = () => (
    
    .hero{
      text-align: center;
-     margin -20px 0 0 0 ;
+     margin -32px -10px 0 -10px ;
      background-color: #808080;
    }
    .social-link {

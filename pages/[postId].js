@@ -8,7 +8,7 @@ import Menu from "./Menu";
 const BlogPost = ({ post }) => (
   <div className="container">
     <Head>
-      <title>Home</title>
+      <title>Necati Arman Blog</title>
       <link rel="icon" href="/favicon.ico" />
       <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"/>
       <script data-ad-client="ca-pub-2037585543989384" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -18,7 +18,7 @@ const BlogPost = ({ post }) => (
 
     <div className="blog">
       <h2 className="blog-title">
-      <Link href="/test">
+      <Link href={post.slug}>
           <a className="blog-title-link">{post.title}</a>
         </Link>
       </h2>
@@ -27,7 +27,7 @@ const BlogPost = ({ post }) => (
       </div>
       <div className="blog-date">{post.date}</div>
     </div>
-    <style jsx>{`
+    <style jsx global>{`
       .container {
         width: 100%;
         margin: 0 auto;
@@ -35,20 +35,6 @@ const BlogPost = ({ post }) => (
         background-color:#ebc8b2;
       }
 
-      .hero{
-        text-align: center;
-        margin -20px 0 0 0 ;
-        background-color: #808080;
-      }
-
-      .social-link {
-        margin-right: 8px;
-        color:black;
-      }
-
-      .hero-title {
-        font-size: 48px;
-      }
 
       .blog-date {
         text-align: right;
@@ -83,6 +69,10 @@ const BlogPost = ({ post }) => (
       .hakkındayazı{
         text-align: center;
         color: black;
+      }
+      body {
+        background-color: #ebc8b2;
+        margin-top: 0px;
       }
     `}</style>
   </div>

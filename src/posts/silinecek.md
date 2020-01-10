@@ -1,5 +1,0 @@
-
-fjıoaüsdjfıjasdfjasf
-adsıofadhsdıuofhuısjadfuahbt
-qjagharohgyouabsgk
-areghıpashgoıjatgrqıhq

@@ -6,6 +6,7 @@ import ReactMarkdown from "react-markdown";
 import Menu from "./Menu";
 
 const Home = ({ posts }) => (
+
   <div className="container">
     <Head>
       <title>Necati Arman Blog</title>
@@ -30,25 +31,16 @@ const Home = ({ posts }) => (
       </div>
     ))}
 
-    <style jsx>{`
+
+    <style jsx global>{`
       .container {
         width: 100%;
         margin: 0 auto;
         font-family: 'Indie Flower', cursive;
         background-color:#ebc8b2;
       }
-      .hero{
-        text-align: center;
-        margin -20px 0 0 0 ;
-        background-color: #808080;
-      }
-      .social-link {
-        margin-right: 8px;
-        color:black;
-      }
-      .hero-title {
-        font-size: 48px;
-      }
+      
+      
       .blog-date {
         text-align: right;
         color: red;
@@ -63,10 +55,14 @@ const Home = ({ posts }) => (
         border-radius:15px;
         max-width: 650px;
         margin: auto;
+        /*position: relative;
+        float: left;
+        height: 250px;*/
       }
       .blog-title{
         padding: 5px 0 0 5px;
       }
+    
       .blog-text{
         padding: 0 0 0 5px;
       }
@@ -82,12 +78,17 @@ const Home = ({ posts }) => (
         text-align: center;
         color: black;
       }
+      body {
+        background-color: #ebc8b2;
+        margin-top: 0px;
+        
+      }
     `}</style>
   </div>
 );
 Home.getInitialProps = async ({ req }) => {
   // TODO: aşağıdaki satırda bulunan adresi kendi sunucu adresinle değiştirmelisin
-  const res = await fetch("http://necatiarmanblog.herokuapp.com/api/posts");
+  const res = await fetch("http://localhost:3000/api/posts");
   const json = await res.json();
   return { posts: json.posts };
 };

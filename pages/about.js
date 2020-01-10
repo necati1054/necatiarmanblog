@@ -7,7 +7,7 @@ import Menu from "./Menu";
 const about = () => (
   <div className="container">
     <Head>
-      <title>Home</title>
+      <title>Hakkında</title>
       <link rel="icon" href="/favicon.ico" />
       <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"/>
     </Head>
@@ -17,25 +17,19 @@ const about = () => (
     <div className="yazı">
       <img src="minion.png" alt="my"/>
     </div>
-    <style jsx>{`
+    <style jsx global>{`
+    body {
+      background-color: #ebc8b2;
+      margin: 0px;
+    }
+
       .container {
         width: 100%;
         margin: 0 auto;
         font-family: 'Indie Flower', cursive;
         background-color:#ebc8b2;
       }
-      .hero{
-        text-align: center;
-        margin -20px 0 0 0 ;
-        background-color: #808080;
-      }
-      .social-link {
-        margin-right: 8px;
-        color:black;
-      }
-      .hero-title {
-        font-size: 48px;
-      }
+     
       .blog-date {
         text-align: right;
         color: red;
@@ -48,8 +42,6 @@ const about = () => (
       .blog{
         background-color:#e5b79a;
         border-radius:15px;
-        max-width: 650px;
-        margin: auto;
       }
       .blog-title{
         padding: 5px 0 0 5px;
