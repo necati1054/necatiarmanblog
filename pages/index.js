@@ -3,7 +3,7 @@ import fetch from "isomorphic-unfetch";
 import Head from "next/head";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
-import Menu from "./Menu";
+import Menu from "../pages/menu";
 
 const Home = ({ posts }) => (
 
