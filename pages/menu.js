@@ -6,11 +6,11 @@ const menu = () => (
           <a className="başlık"><h1 className="hero-title">Necati ARMAN</h1></a>
       </Link>
       <div className="hero-social-links">
-        <Link href="https://www.instagram.com/necati_arman_offical/">
-          <a className="social-link">Instagram</a>
+        <Link  href="https://www.instagram.com/necati_arman_offical/">
+          <a className="social-link" target="_blank" >Instagram</a>
         </Link>
-        <Link href="https://www.facebook.com/profile.php?id=100003946455226">
-          <a className="social-link">facebook</a>
+        <Link  href="https://www.facebook.com/profile.php?id=100003946455226">
+          <a className="social-link" target="_blank">facebook</a>
         </Link>
         <div className="hakkında">            
           <a href="/about" className="hakkındayazı">Hakkında</a>
