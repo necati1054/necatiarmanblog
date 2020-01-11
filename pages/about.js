@@ -15,14 +15,17 @@ const about = () => (
     <Menu></Menu>
 
     <div className="yazı">
-      <img src="minion.png" alt="my"/>
+      <img className="foto" src="sonhali.jpg" alt="NecatiARMAN" />
     </div>
     <style jsx global>{`
     body {
       background-color: #ebc8b2;
       margin: 0px;
     }
-
+    .foto{
+      height:160px;
+    }
+    
       .container {
         width: 100%;
         margin: 0 auto;
