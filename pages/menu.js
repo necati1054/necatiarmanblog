@@ -2,9 +2,9 @@ import Link from "next/link";
 const menu = () => (
 <>
 <div className="hero">
-      <Link href="http://necatiarmanblog.herokuapp.com/">
-          <a className="başlık"><h1 className="hero-title">Necati ARMAN</h1></a>
-      </Link>
+      
+          <a href="http://necatiarmanblog.herokuapp.com/" className="başlık"><h1 className="hero-title">Necati ARMAN</h1></a>
+      
       <div className="hero-social-links">
         <Link  href="https://www.instagram.com/necati_arman_offical/">
           <a className="social-link" target="_blank" >Instagram</a>
