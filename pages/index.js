@@ -28,6 +28,7 @@ const Home = ({ posts }) => (
           <ReactMarkdown source={post.details} />
         </div>
         <div className="blog-date">{post.date}</div>
+        <a href={post.slug}><div className="blog-dev-oku">Okumaya Devam Et</div></a>
       </div>
     ))}
 
@@ -80,6 +81,10 @@ const Home = ({ posts }) => (
         background-color: #ebc8b2;
         margin-top: 0px;
         
+      }
+      .blog-dev-oku{
+        text-align: right;
+        padding: 0 5px 5px 0;
       }
     `}</style>
   </div>
