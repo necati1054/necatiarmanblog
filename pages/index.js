@@ -6,7 +6,8 @@ import ReactMarkdown from "react-markdown";
 import Menu from "../pages/menu";
 
 const Home = ({ posts }) => (
-
+  <div className="sa"> 
+  <Menu></Menu>
   <div className="container">
     <Head>
       <title>Necati Arman Blog</title>
@@ -15,48 +16,54 @@ const Home = ({ posts }) => (
       <script data-ad-client="ca-pub-2037585543989384" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </Head>
 
-    <Menu></Menu>
-
-    {posts.map(post => (
-      <div className="blog">
+    {posts.map(post => {
+      return (<div className="blog">
+        <img src={post.photo}></img>
         <h2 className="blog-title">
           <Link href={post.slug}>
             <a className="blog-title-link">{post.title}</a>
           </Link>
-        </h2>
+        </h2> 
         <div className="blog-text">
           <ReactMarkdown source={post.details} />
         </div>
         <div className="blog-date">{post.date}</div>
         <a href={post.slug}><div className="blog-dev-oku">Okumaya Devam Et</div></a>
-      </div>
-    ))}
-
+      </div>);
+    })}
+    </div>
 
     <style jsx global>{`
       .container {
         width: 100%;
         margin: 0 auto;
         font-family: 'Indie Flower', cursive;
+        max-width: 800px;
         background-color:#ebc8b2;
+      }      
+      .sa {
+        font-family: 'Indie Flower', cursive;
       }
-      
-      
       .blog-date {
         text-align: right;
         color: red;
         padding: 0 5px 5px 0;
+        font-size:20px;
       }
       a {
-        color: #ff6200;
+        color: #FF00FF;;
         text-decoration: none;
       }
       .blog{
         background-color:#e5b79a;
         border-radius:15px;
-        max-width: 650px;
+        width: 250px;
+        height: 400px;
         margin: auto;
-        
+        float:left;
+        margin-right:16px;
+        margin: 15px  0 0 13px;
+
       }
       .blog-title{
         padding: 5px 0 0 5px;
@@ -65,33 +72,40 @@ const Home = ({ posts }) => (
       .blog-text{
         padding: 0 0 0 5px;
       }
-      .hakkında{
-        weight:auto;
-        height:40px;
-        background-color: #e5b79a;
-        border-radius: 8px;
-        max-width: 650px;
-        margin: auto;
-      }
-      .hakkındayazı{
-        text-align: center;
-        color: black;
-      }
       body {
-        background-color: #ebc8b2;
+        background-color: #0000CC;
         margin-top: 0px;
         
       }
       .blog-dev-oku{
         text-align: right;
         padding: 0 5px 5px 0;
+        font-size:24px;
+        color:#660099;
+        border-radius:16px;
+      }
+      .blog-dev-oku:hover{
+        color:red;
+        background-color: #fff;
+        box-shadow:
+        0 0 60px 20px #fff,
+        0 0 100px 20px #f0f,
+        0 0 140px 20px #0ff;
+      }
+
+      img{
+        width:250px;
+        height:150px;
+        margin-top:5%;
+        border-radius:15px;
+        margin: 0 0 0 0;
       }
     `}</style>
-  </div>
+    </div>
 );
 Home.getInitialProps = async ({ req }) => {
   // TODO: aşağıdaki satırda bulunan adresi kendi sunucu adresinle değiştirmelisin
-  const res = await fetch("http://necatiarmanblog.herokuapp.com/api/posts");
+  const res = await fetch("http://http://necatiarmanblog.herokuapp.com/api/posts");
   const json = await res.json();
   return { posts: json.posts };
 };

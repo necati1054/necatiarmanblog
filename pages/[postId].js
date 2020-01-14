@@ -17,13 +17,14 @@ const BlogPost = ({ post }) => (
     <Menu></Menu>
 
     <div className="blog">
+    <img src={post.photo}></img>
       <h2 className="blog-title">
       <Link href={post.slug}>
           <a className="blog-title-link">{post.title}</a>
         </Link>
       </h2>
       <div className="blog-text">
-        <ReactMarkdown source={post.details} />
+        <ReactMarkdown source={post.link} />
       </div>
       <div className="blog-date">{post.date}</div>
     </div>
@@ -32,7 +33,7 @@ const BlogPost = ({ post }) => (
         width: 100%;
         margin: 0 auto;
         font-family: 'Indie Flower', cursive;
-        background-color:#ebc8b2;
+        background-color: #0000CC;
       }
 
 
@@ -40,6 +41,7 @@ const BlogPost = ({ post }) => (
         text-align: right;
         color: red;
         padding: 0 5px 5px 0;
+        font-size:20px;
       }
 
       a {
@@ -49,7 +51,7 @@ const BlogPost = ({ post }) => (
       .blog{
         background-color:#e5b79a;
         border-radius:15px;
-        max-width: 650px;
+        max-width: 777px;
         margin: auto;
       }
       .blog-text{
@@ -57,22 +59,17 @@ const BlogPost = ({ post }) => (
       }
       .blog-title{
         padding: 5px 0 0 5px;
-      }
-      .hakkında{
-        weight:auto;
-        height:40px;
-        background-color: #e5b79a;
-        border-radius: 8px;
-        max-width: 650px;
-        margin: auto;
-      }
-      .hakkındayazı{
-        text-align: center;
-        color: black;
-      }
+      } 
       body {
-        background-color: #ebc8b2;
+        background-color: #0000CC;
         margin-top: 0px;
+      }
+      img{
+        width:500px;
+        height:300px;
+        margin-top:5%;
+        border-radius:15px;
+        margin: 0 0 0 0;
       }
     `}</style>
   </div>
@@ -84,7 +81,7 @@ const BlogPost = ({ post }) => (
 </script>
 BlogPost.getInitialProps = async ({ req, query }) => {
   // TODO: aşağıdaki satırda bulunan adresi kendi sunucu adresinle değiştirmelisin
-  const res = await fetch(`http://necatiarmanblog.herokuapp.com/api/post/${query.postId}`);
+  const res = await fetch(`http://http://necatiarmanblog.herokuapp.com/api/post/${query.postId}`);
   const json = await res.json();
   return { post: json.post };
 };

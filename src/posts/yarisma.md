@@ -1,1 +1,1 @@
-burda yazı var
+burda yazı var nasılsın fldsnaıflşdasn nnnnnnn nnnnnnnn nnnnnnnnn
