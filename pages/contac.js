@@ -18,8 +18,8 @@ const contac = () => (
 
     <div className="ilet">
       <ul>
-        <li><a target="_blank" href="https://www.instagram.com/necati_arman_offical/"><i class="fab fa-facebook"></i></a></li>
-        <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100003946455226"><i class="fab fa-instagram"></i></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100003946455226"><i class="fab fa-facebook"></i></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/necati_arman_offical/"><i class="fab fa-instagram"></i></a></li>
         <li><a href="https://api.whatsapp.com/send?phone=905531883296"><i class="fab fa-whatsapp"></i></a></li>
         <li><a href="tel:553-188-3296"><i class="fas fa-mobile"></i></a></li>
         <li><a href="mailto:necati.arman1054@gmail.com"><i class="fas fa-at"></i></a></li>
