@@ -17,6 +17,7 @@ const contac = () => (
     <Menu></Menu>
 
     <div className="ilet">
+      <hr className="czg1"></hr>
       <ul>
         <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100003946455226"><i class="fab fa-facebook"></i></a></li>
         <li><a target="_blank" href="https://www.instagram.com/necati_arman_offical/"><i class="fab fa-instagram"></i></a></li>
@@ -24,11 +25,24 @@ const contac = () => (
         <li><a href="tel:553-188-3296"><i class="fas fa-mobile"></i></a></li>
         <li><a href="mailto:necati.arman1054@gmail.com"><i class="fas fa-at"></i></a></li>
       </ul>
+      <hr className="czg2"></hr>
     </div>
     <style jsx global>{`
     body {
       background-color: #0000CC;
       margin: 0px;
+    }
+    .czg1{
+      position: relative;
+      top:35%;
+      max-width:600px;
+      border:1px solid #808080;
+    }
+    .czg2 {
+      position: relative;
+      top:54%;
+      max-width:600px;
+      border:1px solid #808080;
     }
     .container {
         width: 100%;
