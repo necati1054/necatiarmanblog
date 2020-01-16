@@ -3,7 +3,7 @@ const menu = () => (
 <>
 <div className="hero">
   <div>
-    <a href="http://necatiarmanblog.herokuapp.com/"><img className="başlık" src="neco.png"></img></a>
+    <a href="/index"><img className="başlık" src="neco.png"></img></a>
     </div>
       <div className="hero-social-links">
         <Link  href="https://www.instagram.com/necati_arman_offical/">
@@ -13,14 +13,14 @@ const menu = () => (
           <a className="social-link" target="_blank">facebook</a>
         </Link>
         <div className="hakkında">            
+          <a href="/index" className="hakkındayazı">Ana Sayfa</a>
           <a href="/about" className="hakkındayazı">Hakkında</a>
+          <a href="/contac" className="hakkındayazı">İletişim</a>
         </div>
       </div>
     </div>
 
     <style jsx>{`
-  
-  
    .hero{
      text-align: center;
      margin 0 -10px 0 -10px ;
@@ -42,6 +42,7 @@ const menu = () => (
     0 0 60px 20px #fff,
     0 0 100px 20px #f0f,
     0 0 140px 20px #0ff;
+
   }
 
    .hero-title {
@@ -66,6 +67,7 @@ const menu = () => (
     top:13%;
     font-size:25px;
     border-radius: 15px;
+    margin-right: 40px;
   }
   .hakkındayazı:hover{
     background-color: #fff;

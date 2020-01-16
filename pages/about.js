@@ -14,62 +14,40 @@ const about = () => (
 
     <Menu></Menu>
 
-    <div className="yazı">
+    <div className="hk">
       <img className="foto" src="sonhali.jpg" alt="NecatiARMAN" />
     </div>
     <style jsx global>{`
     body {
-      background-color: #ebc8b2;
+      background-color: #0000CC;
       margin: 0px;
     }
     .foto{
       height:160px;
+      border-radius:10px;
+      padding: 5px 0 0 5px;
     }
-    
       .container {
         width: 100%;
         margin: 0 auto;
         font-family: 'Indie Flower', cursive;
-        background-color:#ebc8b2;
-      }
-     
-      .blog-date {
-        text-align: right;
-        color: red;
-        padding: 0 5px 5px 0;
+        background-color:#0000CC;
       }
       a {
         color: #ff6200;
         text-decoration: none;
       }
-      .blog{
-        background-color:#e5b79a;
-        border-radius:15px;
-      }
-      .blog-title{
-        padding: 5px 0 0 5px;
-      }
-      .blog-text{
-        padding: 0 0 0 5px;
-      }
-      .hakkında{
-        weight:auto;
-        height:40px;
-        background-color: #e5b79a;
-        border-radius: 8px;
-        max-width: 650px;
-        margin: auto;
-      }
       .hakkındayazı{
         text-align: center;
         color: black;
       }
-      .yazı{
+      .hk{
         margin: auto;
         height: auto;
-        background-color: red;
-        max-width: 650px;
-        border-radius:5px;
+        background-color: #e5b79a;
+        max-width: 770px;
+        border-radius:10px;
+        margin 10px auto
       }
     `}</style>
   </div>
@@ -77,7 +55,7 @@ const about = () => (
 
 about.getInitialProps = async ({ req, query }) => {
   // TODO: aşağıdaki satırda bulunan adresi kendi sunucu adresinle değiştirmelisin
-  const res = await fetch(`http://necatiarmanblog.herokuapp.com/api/post/${query.postId}`);
+  const res = await fetch(`http://localhost:3000/api/post/${query.postId}`);
   const json = await res.json();
   return { post: json.post };
 };
