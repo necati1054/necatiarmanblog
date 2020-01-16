@@ -13,7 +13,7 @@ const menu = () => (
           <a className="social-link" target="_blank">facebook</a>
         </Link>
         <div className="hakkında">            
-          <a href="/index" className="hakkındayazı">Ana Sayfa</a>
+          <a href="/index" className="hakkındayazı">AnaSayfa</a>
           <a href="/about" className="hakkındayazı">Hakkında</a>
           <a href="/contac" className="hakkındayazı">İletişim</a>
         </div>

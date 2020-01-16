@@ -63,7 +63,7 @@ const Home = ({ posts }) => (
       float:left;
       margin-right:16px;
       margin: 15px  0 0 13px;
-
+      border:1px solid red;
     }
     .blog-title{
       padding: 5px 0 0 5px;

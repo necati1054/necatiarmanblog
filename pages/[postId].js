@@ -35,15 +35,12 @@ const BlogPost = ({ post }) => (
         font-family: 'Indie Flower', cursive;
         background-color: #0000CC;
       }
-
-
       .blog-date {
         text-align: right;
         color: red;
         padding: 0 5px 5px 0;
         font-size:20px;
       }
-
       a {
         color: #ff6200;
         text-decoration: none;
@@ -53,6 +50,7 @@ const BlogPost = ({ post }) => (
         border-radius:15px;
         max-width: 777px;
         margin: auto;
+        border:5px solid #ffee10;
       }
       .blog-text{
         padding: 0 0 0 5px;

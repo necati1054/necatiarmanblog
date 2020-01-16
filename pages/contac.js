@@ -24,6 +24,7 @@ const contac = () => (
         <li><a href="https://api.whatsapp.com/send?phone=905531883296"><i class="fab fa-whatsapp"></i></a></li>
         <li><a href="tel:553-188-3296"><i class="fas fa-mobile"></i></a></li>
         <li><a href="mailto:necati.arman1054@gmail.com"><i class="fas fa-at"></i></a></li>
+        <li><a target="_blank" href="https://drive.google.com/open?id=16gJghFjDd4wJ15yreNcsthyY820QDdMy&usp=sharing"><i class="fas fa-map-marker-alt"></i></a></li>
       </ul>
       <hr className="czg2"></hr>
     </div>
@@ -34,15 +35,20 @@ const contac = () => (
     }
     .czg1{
       position: relative;
-      top:35%;
+      top:15%;
       max-width:600px;
       border:1px solid #808080;
     }
     .czg2 {
       position: relative;
-      top:54%;
+      top:40%;
       max-width:600px;
       border:1px solid #808080;
+    }
+    .harita{
+      margin: 200px 0 0 60px;
+      position: relative;
+      top:50%;
     }
     .container {
         width: 100%;
@@ -55,19 +61,19 @@ const contac = () => (
         text-decoration: none;
     }
     .ilet{
-      margin: auto;
-      height: 420px;
+      height:420px;
       background-color: #e5b79a;
       max-width: 770px;
       border-radius:10px;
-      margin 10px auto
+      margin: 10px auto;
+      border: 2px solid red; 
     }
     ul{
       margin:0;
       padding:0;
       display:flex;
       position: absolute;
-      top:60%;
+      top:50%;
       left:50%;
       transform: translate(-50%,-50%);
     }
