@@ -93,8 +93,9 @@ const contac = () => (
     }
     ul li a:hover{
       color:ffee10;
+      background-color:white;
       box-shadow: 0 0 5px #ffee10;
-      text-shadow: 0 0 5px #ffee10;
+      text-shadow: 0 0 5px red;
     }
     `}</style>
   </div>
