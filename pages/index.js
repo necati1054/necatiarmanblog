@@ -93,7 +93,7 @@ const Home = ({ posts }) => (
       0 0 140px 20px #0ff;}
     }
 
-      img{
+      .blog img{
       width:250px;
       height:150px;
       margin-top:5%;
