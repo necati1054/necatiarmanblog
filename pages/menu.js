@@ -24,7 +24,7 @@ const menu = () => (
    .hero{
      text-align: center;
      margin 0 -10px 0 -10px ;
-     background-color: #808080;
+     background-color: #595245;
      
    }
    .social-link {
@@ -34,7 +34,6 @@ const menu = () => (
      border-radius: 16px;
    }
    
-   .social-link:hover{color:red}
 
    .social-link:hover{
     background-color: #fff;
@@ -54,19 +53,19 @@ const menu = () => (
    }
    .hakkında{
     weight:auto;
-    height:40px;
-    background-color: #0000CC;
+    height:27px;
+    background-color: #A67665;
     border-radius: 8px 8px 0 0 ;
     max-width: 774px;
     margin: auto;
   }
   .hakkındayazı{
     text-align: center;
-    color: red;
+    color: #FF00FF;
     position:relative;
     top:13%;
     font-size:25px;
-    border-radius: 15px;
+    border-radius: 9px;
     margin-right: 40px;
   }
   .hakkındayazı:hover{

@@ -12,13 +12,15 @@ const Home = ({ posts }) => (
     <Head>
       <title>Necati Arman Blog</title>
       <link rel="icon" href="/favicon.ico" />
-      <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"/>
       <script data-ad-client="ca-pub-2037585543989384" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <meta charSet="utf-8"></meta>     
       </Head>
 
     {posts.map(post => {
       return (<div className="blog">
+        <a href={post.slug}>
       <img src={post.photo}></img>
+        </a>
         <h2 className="blog-title">
           <Link href={post.slug}>
             <a className="blog-title-link">{post.title}</a>
@@ -37,12 +39,11 @@ const Home = ({ posts }) => (
     .container {
       width: 100%;
       margin: 0 auto;
-      font-family: 'Indie Flower', cursive;
       max-width: 800px;
-      background-color:#ebc8b2;
+
     }      
     .sa {
-      font-family: 'Indie Flower', cursive;
+
     }
     .blog-date {
       text-align: right;
@@ -71,9 +72,10 @@ const Home = ({ posts }) => (
   
     .blog-text{
       padding: 0 0 0 5px;
+      font-size:19px;
     }
     body {
-      background-color: #0000CC;
+      background-color: #A67665;
       margin-top: 0px;
       
     }
@@ -93,20 +95,18 @@ const Home = ({ posts }) => (
       0 0 140px 20px #0ff;}
     }
 
-      .blog img{
+    .blog img{
       width:250px;
       height:150px;
       margin-top:5%;
       border-radius:15px;
       margin: 0 0 0 0;
     }
-      
     `}</style>
     </div>
 );
 Home.getInitialProps = async ({ req }) => {
-  // TODO: aşağıdaki satırda bulunan adresi kendi sunucu adresinle değiştirmelisin
-  const res = await fetch("http://necatiarmanblog.herokuapp.com/api/posts");
+  const res = await fetch("http://localhost:3000/api/posts");
   const json = await res.json();
   return { posts: json.posts };
 };
