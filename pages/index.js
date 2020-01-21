@@ -17,10 +17,10 @@ const Home = ({ posts }) => (
       </Head>
 
     {posts.map(post => {
-      return (<div className="blog">
-        <a href={post.slug}>
+    return (<div className="blog">
+        
       <img src={post.photo}></img>
-        </a>
+        
         <h2 className="blog-title">
           <Link href={post.slug}>
             <a className="blog-title-link">{post.title}</a>
@@ -106,7 +106,7 @@ const Home = ({ posts }) => (
     </div>
 );
 Home.getInitialProps = async ({ req }) => {
-  const res = await fetch("http://necatiarmanblog.herokuapp.com/api/posts");
+  const res = await fetch("http://localhost:3000/api/posts");
   const json = await res.json();
   return { posts: json.posts };
 };

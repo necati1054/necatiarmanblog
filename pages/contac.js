@@ -18,7 +18,7 @@ const contac = () => (
     <div className="ilet">
       <hr className="czg1"></hr>
       <ul>
-      <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100003946455226"><i class="fab fa-facebook"></i></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100003946455226"><i class="fab fa-facebook"></i></a></li>
         <li><a target="_blank" href="https://www.instagram.com/necati_arman_offical/"><i class="fab fa-instagram"></i></a></li>
         <li><a href="https://api.whatsapp.com/send?phone=905531883296"><i class="fab fa-whatsapp"></i></a></li>
         <li><a href="tel:553-188-3296"><i class="fas fa-mobile"></i></a></li>
@@ -144,7 +144,7 @@ const contac = () => (
 );
 
 contac.getInitialProps = async ({ req, query }) => {
-  const res = await fetch(`http://necatiarmanblog.herokuapp.com/api/post/${query.postId}`);
+  const res = await fetch(`http://localhost:3000/api/post/${query.postId}`);
   const json = await res.json();
   return { post: json.post };
 };
