@@ -18,9 +18,9 @@ const Home = ({ posts }) => (
 
     {posts.map(post => {
     return (<div className="blog">
-        
+        <a href={post.slug}>
       <img src={post.photo}></img>
-        
+        </a>
         <h2 className="blog-title">
           <Link href={post.slug}>
             <a className="blog-title-link">{post.title}</a>
