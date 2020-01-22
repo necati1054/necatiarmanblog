@@ -2,7 +2,7 @@ import Link from "next/link";
 const menu = () => (
 <>
 <div className="hero">
-  <div>
+  <div className="bükücü">
     <a href="/index"><img className="başlık" src="neco.png"></img></a>
     </div>
       <div className="hero-social-links">
@@ -12,10 +12,10 @@ const menu = () => (
         <Link  href="https://www.facebook.com/profile.php?id=100003946455226">
           <a className="social-link" target="_blank">facebook</a>
         </Link>
-        <div className="hakkında">            
-          <a href="/index" className="hakkındayazı">AnaSayfa</a>
-          <a href="/about" className="hakkındayazı">Hakkında</a>
-          <a href="/contac" className="hakkındayazı">İletişim</a>
+        <div className="hakkında">    
+            <a href="/index" className="hakkındayazı">AnaSayfa</a>
+            <a href="/about" className="hakkındayazı">Hakkında</a>
+            <a href="/contac" className="hakkındayazı">İletişim</a>      
         </div>
       </div>
     </div>
@@ -34,6 +34,10 @@ const menu = () => (
      border-radius: 16px;
    }
    
+   .bükücü {
+    max-width: 774px;
+    margin: 0 auto;
+   }
 
    .social-link:hover{
     background-color: #fff;
@@ -52,7 +56,7 @@ const menu = () => (
      text-decoration: none;
    }
    .hakkında{
-    weight:auto;
+    width:auto;
     height:27px;
     background-color: #A67665;
     border-radius: 8px 8px 0 0 ;
@@ -77,8 +81,21 @@ const menu = () => (
 
   .başlık{
     color: black;
-    weight:1000px;
+    width:60%;
     height:70px;
+  }
+  @media only screen and (max-width:500px){
+    
+  .başlık{
+    color: black;
+    width:95%;
+    height:70px;
+  }
+  .hakkında {
+    
+    position:relative;
+    top:3px;
+  }
   }
  `}</style>
 

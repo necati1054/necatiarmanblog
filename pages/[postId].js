@@ -5,6 +5,7 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import Menu from "../pages/menu";
 
+
 const BlogPost = ({ post }) => (
   <div className="container">
     <Head>
@@ -80,11 +81,25 @@ const BlogPost = ({ post }) => (
         border-radius:15px;
         margin: 0 0 0 0;
       }
+      @media only screen and (max-width:500px){
+        .blog img{
+          position:relative;
+          left:19%;
+          margin: 0 0 0 -40px;
+        }
+        img{
+          width:300px;
+          height:200px;
+          margin-top:5%;
+          border-radius:15px;
+          margin: 0 0 0 0;
+        }
+      }
     `}</style>
   </div>
 );
 BlogPost.getInitialProps = async ({ req, query }) => {
-  const res = await fetch(`https://necatiarmanblog.herokuapp.com/api/post/${query.postId}`);
+  const res = await fetch(`http://localhost:3000/api/post/${query.postId}`);
   const json = await res.json();
   return { post: json.post };
 };

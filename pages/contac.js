@@ -68,11 +68,7 @@ const contac = () => (
     .czg2:hover:befor{
       transform: scale(1.1);
     }
-    .harita{
-      margin: 200px 0 0 60px;
-      position: relative;
-      top:50%;
-    }
+  
     .container {
         width: 100%;
         margin: 0 auto;
@@ -138,6 +134,21 @@ const contac = () => (
       background-color:white;
       box-shadow: 0 0 5px #ffee10;
       text-shadow: 0 0 5px red;
+    }
+    @media only screen and (max-width:500px) {
+      ul li {
+        margin: auto;
+        height:100%;
+      }
+      ul{
+        margin:0;
+        padding:0;
+        display:flex;
+        position: absolute;
+        top:34%;
+        left:50%;
+        transform: translate(-50%,-50%);
+      }
     }
     `}</style>
   </div>

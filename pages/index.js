@@ -63,7 +63,7 @@ const Home = ({ posts }) => (
       margin: auto;
       float:left;
       margin-right:16px;
-      margin: 15px  0 0 13px;
+      margin: 14px  0 0 13px;
       border:1px solid red;
     }
     .blog-title{
@@ -102,11 +102,23 @@ const Home = ({ posts }) => (
       border-radius:15px;
       margin: 0 0 0 0;
     }
+    @media only screen and (max-width:500px){
+
+      .blog {
+        width:93%;
+       
+      }
+      .blog img {
+        width: 100%;
+        height: 50%;
+      }
+
+    }
     `}</style>
     </div>
 );
 Home.getInitialProps = async ({ req }) => {
-  const res = await fetch("https://necatiarmanblog.herokuapp.com/api/posts");
+  const res = await fetch("http://localhost:3000/api/posts");
   const json = await res.json();
   return { posts: json.posts };
 };

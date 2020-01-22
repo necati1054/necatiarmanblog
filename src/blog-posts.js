@@ -20,7 +20,7 @@ export const getPosts = () => {
       title: "Markdown",
       slug: "Markdown",
       details: "Bu yazıda Markdown yazı sitillerini derledik.",
-      date: "19Ocak 2020",
+      date: "19 Ocak 2020",
       link: require("./posts/markdown.md").default,
       photo: "https://picsum.photos/200/300?grayscale"
     }
