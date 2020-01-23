@@ -12,6 +12,7 @@ const contac = () => (
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"></link>
       <meta charSet="utf-8"></meta>
       <script data-ad-client="ca-pub-2037585543989384" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156792922-1"></script>
     </Head>
 
     <Menu></Menu>

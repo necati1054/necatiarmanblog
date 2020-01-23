@@ -13,6 +13,7 @@ const about = () => (
       <meta charSet="utf-8"></meta>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <script data-ad-client="ca-pub-2037585543989384" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156792922-1"></script>
     </Head>
 
     <Menu></Menu>
