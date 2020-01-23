@@ -31,6 +31,14 @@ const about = () => (
     AOS.init();
   </script>
 
+  <script>
+  window.dataLayer = window.dataLayer || []
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156792922-1');
+</script>
+
     <style jsx global>{`
     body {
       background-color: #A67665;
