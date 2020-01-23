@@ -6,6 +6,14 @@ import Menu from "../pages/menu";
 
 const contac = () => (
   <div className="container">
+
+ <script>
+  window.dataLayer = window.dataLayer || []
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156792922-1');
+ </script>
     <Head>
       <title>İletişim</title>
       <link rel="icon" href="/favicon.ico" />
@@ -29,6 +37,7 @@ const contac = () => (
       </ul>
       <hr className="czg2"></hr>
     </div>
+
     <style jsx global>{`
     body {
       background-color: #A67665;

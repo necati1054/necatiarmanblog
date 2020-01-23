@@ -9,6 +9,15 @@ const Home = ({ posts }) => (
   <div className="sa"> 
   <Menu></Menu>
   <div className="container">
+
+  <script>
+  window.dataLayer = window.dataLayer || []
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156792922-1');
+  </script>
+
     <Head>
       <title>Necati Arman Blog</title>
       <link rel="icon" href="/favicon.ico" />
