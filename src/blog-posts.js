@@ -22,7 +22,7 @@ export const getPosts = () => {
       details: "Bu yazıda Markdown yazı sitillerini derledik.",
       date: "19 Ocak 2020",
       link: require("./posts/markdown.md").default,
-      photo: "https://lh6.googleusercontent.com/mDgIniLJRCJA_XKxPtxdPscprE1n6k-6XTQkzn7z5-EgIghGi2n0OGXfM4DNjHEs0zeyomYgG7NYot9jCulE=w1366-h625-rw"
+      photo: "https://lh4.googleusercontent.com/B320Vv1Pd71I8xFYBdCrBrb8zpYfILg3crEtznpRMbPsjlpuslerYnP29XoGVqLhTda1PUlaMT4ZP08ccWQg=w1366-h625-rw"
     }
   ];
 };
