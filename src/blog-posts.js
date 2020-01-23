@@ -6,7 +6,7 @@ export const getPosts = () => {
       details: "Web sitesi yazı sitili değiştirme.",
       date: "21 Ocak 2020",
       link: require("./posts/font.md").default,
-      photo: "https://lh5.googleusercontent.com/Qqlt4Rewz_vcx8IVIUS0RFs9MHt5B0GMk4RXbbtwgAC09HLI_XfSc6snfJKQdY_pqlOqTGB8M44312bjDiY2=w1366-h625-rw"
+      photo: "https://lh5.googleusercontent.com/V_-lY8GY-xoKXurXM-fLIeREkL6exjw4pLOUgNKgGTZBgRXoqxUr3XXvgQo-TRNc8vy8HWJCf8eea7v4WUoN=w1920-h937-rw"
     },
     {
       title: "Css Hover Kullanımı",
