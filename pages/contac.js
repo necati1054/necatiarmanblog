@@ -11,6 +11,7 @@ const contac = () => (
       <link rel="icon" href="/favicon.ico" />
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"></link>
       <meta charSet="utf-8"></meta>
+      <script data-ad-client="ca-pub-2037585543989384" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </Head>
 
     <Menu></Menu>

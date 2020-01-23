@@ -12,6 +12,7 @@ const about = () => (
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <meta charSet="utf-8"></meta>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script data-ad-client="ca-pub-2037585543989384" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </Head>
 
     <Menu></Menu>
