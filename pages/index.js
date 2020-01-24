@@ -17,7 +17,6 @@ const Home = ({ posts }) => (
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156792922-1"></script>
       </Head>
-
     {posts.map(post => {
     return (<div className="blog">
         <a href={post.slug}>

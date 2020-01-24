@@ -20,12 +20,12 @@ const contac = () => (
     <div className="ilet">
       <hr className="czg1"></hr>
       <ul>
-        <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100003946455226"><i class="fab fa-facebook"></i></a></li>
-        <li><a target="_blank" href="https://www.instagram.com/necati_arman_offical/"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-         <li><a href="#"><i class="fas fa-mobile"></i></a></li>
-        <li><a href="mailto:necati.arman1054@gmail.com"><i class="fas fa-at"></i></a></li>
-        <li><a target="_blank" href="https://drive.google.com/open?id=16gJghFjDd4wJ15yreNcsthyY820QDdMy&usp=sharing"><i class="fas fa-map-marker-alt"></i></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100003946455226"><i className="fab fa-facebook"></i></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/necati_arman_offical/"><i className="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i className="fab fa-whatsapp"></i></a></li>
+         <li><a href="#"><i className="fas fa-mobile"></i></a></li>
+        <li><a href="mailto:necati.arman1054@gmail.com"><i className="fas fa-at"></i></a></li>
+        <li><a target="_blank" href="https://drive.google.com/open?id=16gJghFjDd4wJ15yreNcsthyY820QDdMy&usp=sharing"><i className="fas fa-map-marker-alt"></i></a></li>
       </ul>
       <hr className="czg2"></hr>
       <p> sitede bulunan "Whatsapp Ve Mobile" iletişim devre dışı bırakılmıştır. </p>
