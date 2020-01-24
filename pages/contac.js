@@ -22,15 +22,19 @@ const contac = () => (
       <ul>
         <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100003946455226"><i class="fab fa-facebook"></i></a></li>
         <li><a target="_blank" href="https://www.instagram.com/necati_arman_offical/"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="https://api.whatsapp.com/send?phone=905531883296"><i class="fab fa-whatsapp"></i></a></li>
-        <li><a href="tel:553-188-3296"><i class="fas fa-mobile"></i></a></li>
+        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+         <li><a href="#"><i class="fas fa-mobile"></i></a></li>
         <li><a href="mailto:necati.arman1054@gmail.com"><i class="fas fa-at"></i></a></li>
         <li><a target="_blank" href="https://drive.google.com/open?id=16gJghFjDd4wJ15yreNcsthyY820QDdMy&usp=sharing"><i class="fas fa-map-marker-alt"></i></a></li>
       </ul>
       <hr className="czg2"></hr>
+      <p> sitede bulunan "Whatsapp Ve Mobile" iletişim devre dışı bırakılmıştır. </p>
     </div>
 
     <style jsx global>{`
+    p{
+      text-align: center;
+    }
     body {
       background-color: #A67665;
       margin: 0px;
@@ -139,6 +143,14 @@ const contac = () => (
       text-shadow: 0 0 5px red;
     }
     @media only screen and (max-width:500px) {
+      .czg1{
+        position:relative;
+        top:16%;
+      }
+      .czg2{
+        position:relative;
+        top:41%;
+      }
       ul li {
         margin: auto;
         height:100%;
@@ -152,6 +164,22 @@ const contac = () => (
         left:50%;
         transform: translate(-50%,-50%);
       }
+    }
+    @media only screen and (max-width:370px){
+      ul li {
+        margin: auto;
+        height:100%;
+      }
+      ul{
+        margin:0;
+        padding:0;
+        display:flex;
+        position: absolute;
+        top:44%;
+        left:50%;
+        transform: translate(-50%,-50%);
+      }
+    }
     }
     `}</style>
   </div>

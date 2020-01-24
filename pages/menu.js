@@ -9,7 +9,7 @@ const menu = () => (
         <Link  href="https://www.instagram.com/necati_arman_offical/">
           <a className="social-link" target="_blank" >Instagram</a>
         </Link>
-        <Link  href="https://www.facebook.com/profile.php?id=100003946455226">
+        <Link href="https://www.facebook.com/profile.php?id=100003946455226">
           <a className="social-link" target="_blank">facebook</a>
         </Link>
         <div className="hakkında">    
@@ -70,7 +70,7 @@ const menu = () => (
     top:13%;
     font-size:25px;
     border-radius: 9px;
-    margin-right: 40px;
+    margin-right: 30px;
   }
   .hakkındayazı:hover{
     background-color: #fff;
@@ -84,15 +84,13 @@ const menu = () => (
     width:60%;
     height:70px;
   }
-  @media only screen and (max-width:500px){
-    
+  @media only screen and (max-width:600px){
   .başlık{
     color: black;
     width:95%;
     height:70px;
   }
   .hakkında {
-    
     position:relative;
     top:3px;
   }
