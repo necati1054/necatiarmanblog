@@ -41,7 +41,6 @@ const Home = ({ posts }) => (
       width: 100%;
       margin: 0 auto;
       max-width: 800px;
-
     }      
     .sa {
 
@@ -113,7 +112,6 @@ const Home = ({ posts }) => (
         width: 100%;
         height: 50%;
       }
-
     }
     `}</style>
     </div>

@@ -75,7 +75,7 @@ const BlogPost = ({ post }) => (
         background-color: #A67665;
         margin-top: 0px;
       }
-      img{
+      .blog img{
         width:500px;
         height:300px;
         margin-top:5%;

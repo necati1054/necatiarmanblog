@@ -11,10 +11,8 @@ const menu = () => (
         </Link>
         <Link href="https://www.facebook.com/profile.php?id=100003946455226">
           <a className="social-link" target="_blank">facebook</a>
-        </Link>
-<a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=7185773&style=0009&nbdigits=5&type=page&initCount=0" title="Free-Counter" Alt="hitwebcounter"   border="0" ></img>
-</a>  
+        </Link>   
+        <img src="https://hitwebcounter.com/counter/counter.php?page=7185802&style=0025&nbdigits=5&type=page&initCount=0" title="Free-Counter" Alt="hitwebcounter"   border="0" ></img>
         <div className="hakkında">
             <a href="/index" className="hakkındayazı">AnaSayfa</a>
             <a href="/about" className="hakkındayazı">Hakkında</a>

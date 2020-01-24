@@ -19,7 +19,7 @@ const about = () => (
     <Menu></Menu>
 
     <div className="hk">
-      <img className="foto" src="site2.png" alt="NecatiARMAN" data-aos="fade-down"/>
+      <img className="foto" src="site2.png" alt="NecatiARMAN" data-aos="fade-down"/>     
       <p>Merhaba ben Necati ARMAN 12. sınıf öğrencisiyim 
         üniversite sınavına hazırlanıyorum ve boş zamanlarım da ise program
         yazmak yada web siteleri ile ilgileniyorum. Sosyal medyadan takip etmeyi unutmayın.
@@ -41,30 +41,31 @@ const about = () => (
       padding: 5px 0 0 5px;
       position:relative;
       left:30%;
+       
     }
-      .container {
-        width: 100%;
-        margin: 0 auto;
-        background-color:#A67665;
-      }
-      a {
-        color: #ff6200;
-        text-decoration: none;
-      }
-      .hk{
-        height: 420px;;
-        background-color: #e5b79a;
-        max-width: 770px;
-        border-radius:10px;
-        margin: 10px auto;
-        border: 2px solid red; 
-      }
-      p{
-        font-size: 20px;
-        text-align:center;
-        margin: 0 0 0 0;
-        float: left;
-      }
+    .container {
+      width: 100%;
+      margin: 0 auto;
+      background-color:#A67665;
+    }
+    a {
+      color: #ff6200;
+      text-decoration: none;
+    }
+    .hk{
+      height: 420px;;
+      background-color: #e5b79a;
+      max-width: 770px;
+      border-radius:10px;
+      margin: 10px auto;
+      border: 2px solid red; 
+    }
+    p{
+      font-size: 20px;
+      text-align:center;
+      margin: 0 0 0 0;
+      float: left;
+    }
 
       @media only screen and (max-width:1200px){
         .hk{
