@@ -29,7 +29,7 @@ const contac = () => (
         <li data-aos="zoom-out"><a target="_blank" href="https://drive.google.com/open?id=16gJghFjDd4wJ15yreNcsthyY820QDdMy&usp=sharing"><i className="fas fa-map-marker-alt"></i></a></li>
       </ul>
       <hr className="czg2"></hr>
-    </div>
+      </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
