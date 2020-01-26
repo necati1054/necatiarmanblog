@@ -14,11 +14,11 @@ const Home = ({ posts }) => (
       <link rel="icon" href="/logo2.ico" />
       <meta charSet="utf-8"></meta>
       <script data-ad-client="ca-pub-2037585543989384" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156792922-1"></script>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
     {posts.map(post => {
-    return (<div className="blog">
+    return (<div className="blog" data-aos="zoom-out">
         <a href={post.slug}>
       <img src={post.photo}></img>
         </a>
@@ -35,7 +35,11 @@ const Home = ({ posts }) => (
       </div>);
     })}
     </div>
-
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
     <style jsx global>{`
     .container {
       width: 100%;
