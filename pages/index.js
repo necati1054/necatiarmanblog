@@ -88,7 +88,6 @@ const Home = ({ posts }) => (
     }
     .blog-dev-oku:hover{
       color: #fff;
-      backgorund-size= fff;
       box-shadow:
       0 0 60px 20px #fff,
       0 0 100px 20px #f0f,
