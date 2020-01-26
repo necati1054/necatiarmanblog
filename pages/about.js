@@ -18,8 +18,8 @@ const about = () => (
 
     <Menu></Menu>
 
-    <div className="hk">
-      <img className="foto" src="site2.png" alt="NecatiARMAN" data-aos="fade-down"/>     
+    <div className="hk" data-aos="zoom-out">
+      <img className="foto" src="site2.png" alt="NecatiARMAN" data-aos="zoom-out"/>     
       <p>Merhaba ben Necati ARMAN 12. sınıf öğrencisiyim 
         üniversite sınavına hazırlanıyorum ve boş zamanlarım da ise program
         yazmak yada web siteleri ile ilgileniyorum. Sosyal medyadan takip etmeyi unutmayın.
@@ -27,9 +27,9 @@ const about = () => (
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
+    <script>
     AOS.init();
-  </script>
+    </script>
 
     <style jsx global>{`
     body {

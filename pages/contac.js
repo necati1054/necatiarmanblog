@@ -13,23 +13,28 @@ const contac = () => (
       <meta charSet="utf-8"></meta>
       <script data-ad-client="ca-pub-2037585543989384" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156792922-1"></script>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </Head>
 
     <Menu></Menu>
 
     <div className="ilet">
       <hr className="czg1"></hr>
-      <ul>
-        
-        <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100003946455226"><i className="fab fa-facebook"></i></a></li>
-        <li><a target="_blank" href="https://www.instagram.com/necati_arman_offical/"><i className="fab fa-instagram"></i></a></li>
-        <li><a href="https://api.whatsapp.com/send?phone=905531883296"><i className="fab fa-whatsapp"></i></a></li>
-         <li><a href="tel:553-188-3296"><i className="fas fa-mobile"></i></a></li>
-        <li><a href="mailto:necati.arman1054@gmail.com"><i className="fas fa-at"></i></a></li>
-        <li><a target="_blank" href="https://drive.google.com/open?id=16gJghFjDd4wJ15yreNcsthyY820QDdMy&usp=sharing"><i className="fas fa-map-marker-alt"></i></a></li>
+      <ul> 
+        <li data-aos="zoom-out"><a target="_blank" href="https://www.facebook.com/profile.php?id=100003946455226"><i className="fab fa-facebook"></i></a></li>
+        <li data-aos="zoom-out"><a target="_blank" href="https://www.instagram.com/necati_arman_offical/"><i className="fab fa-instagram"></i></a></li>
+        <li data-aos="zoom-out"><a href="https://api.whatsapp.com/send?phone=905531883296"><i className="fab fa-whatsapp"></i></a></li>
+        <li data-aos="zoom-out"><a href="tel:553-188-3296"><i className="fas fa-mobile"></i></a></li>
+        <li data-aos="zoom-out"><a href="mailto:necati.arman1054@gmail.com"><i className="fas fa-at"></i></a></li>
+        <li data-aos="zoom-out"><a target="_blank" href="https://drive.google.com/open?id=16gJghFjDd4wJ15yreNcsthyY820QDdMy&usp=sharing"><i className="fas fa-map-marker-alt"></i></a></li>
       </ul>
       <hr className="czg2"></hr>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 
     <style jsx global>{`
     p{

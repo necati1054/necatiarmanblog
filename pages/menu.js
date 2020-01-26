@@ -1,6 +1,9 @@
 import Link from "next/link";
 const menu = () => (
 <>
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
 <div className="hero">
   <div className="bükücü">
     <a href="/index"><img className="başlık" src="neco.png"></img></a>
@@ -14,9 +17,9 @@ const menu = () => (
         </Link>   
         <img src="https://hitwebcounter.com/counter/counter.php?page=7185802&style=0025&nbdigits=5&type=page&initCount=0" title="Free-Counter" Alt="hitwebcounter"   border="0" ></img>
         <div className="hakkında">
-            <a href="/index" className="hakkındayazı">AnaSayfa</a>
-            <a href="/about" className="hakkındayazı">Hakkında</a>
-            <a href="/contac" className="hakkındayazı">İletişim</a>      
+            <a data-aos="zoom-out" href="/index" className="hakkındayazı">AnaSayfa</a>
+            <a data-aos="zoom-out" href="/about" className="hakkındayazı">Hakkında</a>
+            <a data-aos="zoom-out" href="/contac" className="hakkındayazı">İletişim</a>      
         </div>
       </div>
     </div>
