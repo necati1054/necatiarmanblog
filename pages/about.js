@@ -8,7 +8,7 @@ const about = () => (
   <div className="container">
     <Head>
       <title>Hakkında</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/logo2.ico" />
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <meta charSet="utf-8"></meta>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>

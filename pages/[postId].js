@@ -10,7 +10,7 @@ const BlogPost = ({ post }) => (
   <div className="container">
     <Head>
       <title>Necati Arman Blog</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/logo2.ico" />
       <meta charSet="utf-8"></meta>
       <script data-ad-client="ca-pub-2037585543989384" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156792922-1"></script>
@@ -88,12 +88,23 @@ const BlogPost = ({ post }) => (
           left:19%;
           margin: 0 0 0 -40px;
         }
-        img{
+        .blog img{
           width:300px;
           height:200px;
-          margin-top:5%;
           border-radius:15px;
-          margin: 0 0 0 0;
+          margin: 0 150px 0 0;
+        }
+      }
+      @media only screen and (max-width:400px){
+        .blog img{
+          position:relative;
+          left:19%;
+          margin: 0 0 0 -40px;
+        }
+        .blog img{
+          width:300px;
+          height:200px;
+          border-radius:15px;
         }
       }
     `}</style>
