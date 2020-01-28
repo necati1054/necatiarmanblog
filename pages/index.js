@@ -35,7 +35,7 @@ const Home = ({ posts }) => (
       </div>);
     })}
     </div>
-    
+    <a className="reklam" href="https://bc.vc/?r=295791" alt="BCVC Üye ol para kazan"><img src="https://bc.vc/images/banners/160x600.gif"/></a>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
     AOS.init();
@@ -106,7 +106,9 @@ const Home = ({ posts }) => (
       margin: 0 0 0 0;
     }
     @media only screen and (max-width:500px){
-
+      .reklam{        
+        display: none;
+      }
       .blog {
         width:93%;
        
