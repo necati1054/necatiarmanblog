@@ -32,6 +32,10 @@ const about = () => (
     </script>
 
     <style jsx global>{`
+    .foto:hover{
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+    }
     body {
       background-color: #A67665;
       margin: 0px;
