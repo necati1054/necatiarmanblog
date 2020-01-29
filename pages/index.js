@@ -40,6 +40,23 @@ const Home = ({ posts }) => (
     AOS.init();
     </script>
     <style jsx global>{`
+    .blog img{
+      position: relative;
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      -moz-transform: scale(1);
+      transition: all .3s ease-in;
+      -moz-transition: all .3s ease-in;
+      -webkit-transition: all .3s ease-in;
+      -ms-transition: all .3s ease-in;  
+    }
+    .blog img:hover{
+      z-index:1;
+      -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);  
+      -moz-transform: scale(1.5);
+      transform: scale(1.5);
+    }
     .container {
       width: 100%;
       margin: 0 auto;
@@ -96,7 +113,6 @@ const Home = ({ posts }) => (
       0 0 100px 20px #f0f,
       0 0 140px 20px #0ff;}
     }
-
     .blog img{
       width:250px;
       height:150px;
