@@ -3,7 +3,7 @@ Bu yazıda sizinle birlikte web sitenizdeki yazı sitilinizi nasıl değiştirec
 klasik olarak gelen yazı sitillerini değiştirmek google font hizmetiyle artık çok kolay 
 
 
-1.  [Google Font](https://fonts.google.com/) adresine gidelim
+1.  [Google Font](https://bcvc.live/136ivIZ) adresine gidelim
 2.  istediğimiz font türünü seçelim 
 3.  seçtiğimiz fontun sağ üstündeki "Select this font" yazan butana tıklayalım 
 4.  sağ alt tarafta seçince "FamilySelected" sekmesi gelecek ona tıklıyoruz
