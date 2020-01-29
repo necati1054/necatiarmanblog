@@ -26,7 +26,7 @@ const contac = () => (
         <li data-aos="zoom-out"><a href="https://api.whatsapp.com/send?phone=905531883296"><i className="fab fa-whatsapp"></i></a></li>
         <li data-aos="zoom-out"><a href="tel:553-188-3296"><i className="fas fa-mobile"></i></a></li>
         <li data-aos="zoom-out"><a href="mailto:necati.arman1054@gmail.com"><i className="fas fa-at"></i></a></li>
-        <li data-aos="zoom-out"><a target="_blank" href="https://drive.google.com/open?id=16gJghFjDd4wJ15yreNcsthyY820QDdMy&usp=sharing"><i className="fas fa-map-marker-alt"></i></a></li>
+        <li data-aos="zoom-out"><a target="_blank" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1617057.0556780084!2d28.894091070481544!3d37.665315750523604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c72153d6334ac9%3A0xae0ed24f9b70eb3e!2sDenizli!5e0!3m2!1str!2str!4v1580336612094!5m2!1str!2str"><i className="fas fa-map-marker-alt"></i></a></li>
       </ul>
       <hr className="czg2"></hr>
       </div>
