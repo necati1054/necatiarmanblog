@@ -91,12 +91,13 @@ const BlogPost = ({ post }) => (
           position:relative;
           left:19%;
           margin: 0 0 0 -40px;
-        }
-        .blog img{
           width:300px;
           height:200px;
           border-radius:15px;
           margin: 0 150px 0 0;
+        }
+        .blog{
+          margin 13px 0 0 0;
         }
       }
       @media only screen and (max-width:400px){
@@ -104,11 +105,12 @@ const BlogPost = ({ post }) => (
           position:relative;
           left:19%;
           margin: 0 0 0 -40px;
-        }
-        .blog img{
           width:300px;
           height:200px;
           border-radius:15px;
+        }
+        .blog{
+          margin 13px 0 0 0;
         }
       }
     `}</style>
