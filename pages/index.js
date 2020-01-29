@@ -41,30 +41,30 @@ const Home = ({ posts }) => (
     </script>
     <style jsx global>{`
     .blog img{
-      position: relative;
-      -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-      -moz-transform: scale(1);
-      transition: all .3s ease-in;
-      -moz-transition: all .3s ease-in;
-      -webkit-transition: all .3s ease-in;
-      -ms-transition: all .3s ease-in;  
+      margin-top:150px;
+      margin-left:50px;
+      -webkit-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+      transform: scale(1, 1);
+      transition-duration: 0.3s;
+      -webkit-transition-duration: 0.3s;
     }
     .blog img:hover{
-      z-index:1;
-      -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);  
-      -moz-transform: scale(1.5);
-      transform: scale(1.5);
+      cursor: pointer;
+      -webkit-transform: scale(1.2, 1.2);
+      -ms-transform: scale(1.2, 1.2);
+      transform: scale(1.2, 1.2);
+      transition-duration: 0.3s;
+      -webkit-transition-duration: 0.3s; 
+      box-shadow: 10px 10px 5px black;
+      z-index: 2;
+      position:relative;
     }
     .container {
       width: 100%;
       margin: 0 auto;
       max-width: 800px;
-    }      
-    .sa {
-
-    }
+    }    
     .blog-date {
       text-align: right;
       color: red;
@@ -85,11 +85,11 @@ const Home = ({ posts }) => (
       margin-right:16px;
       margin: 14px  0 0 13px;
       border:1px solid red;
+      box-shadow: 7px 7px 5px black;
     }
     .blog-title{
       padding: 5px 0 0 5px;
     }
-  
     .blog-text{
       padding: 0 0 0 5px;
       font-size:19px;
