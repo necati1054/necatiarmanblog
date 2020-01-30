@@ -9,7 +9,7 @@ Css Te Hover özelliği nasıl kullanılır?
 > yazının css özelliğine :Hover etiketini ekleyerek kullanılır.
 
 Örnek Kod?
-> html kodları 
+> `html kodları`
 
 - <html>
 - <head>
@@ -20,7 +20,7 @@ Css Te Hover özelliği nasıl kullanılır?
 - </body>
 - </html>
 
->css kodları
+> `css kodları`
 
 - .kutu{
 - width:40px;

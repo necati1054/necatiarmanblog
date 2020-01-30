@@ -38,6 +38,13 @@ const BlogPost = ({ post }) => (
     AOS.init();
     </script>
     <style jsx global>{`
+    code {
+      padding: 2px 4px;
+      font-size: 90%;
+      color: red;
+      background-color: black;
+      border-radius: 4px;
+  }
     .blog-title-link{
       color:#FF00FF;
     }
@@ -117,7 +124,7 @@ const BlogPost = ({ post }) => (
   </div>
 );
 BlogPost.getInitialProps = async ({ req, query }) => {
-  const res = await fetch(`http://necatiarmanblog.herokuapp.com/api/post/${query.postId}`);
+  const res = await fetch(`http://localhost:3000/api/post/${query.postId}`);
   const json = await res.json();
   return { post: json.post };
 };

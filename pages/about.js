@@ -20,7 +20,7 @@ const about = () => (
 
     <div className="hk" data-aos="zoom-out">
       <img className="foto" src="site2.png" alt="NecatiARMAN" data-aos="zoom-out"/>     
-      <p>Merhaba ben Necati ARMAN 12. sınıf öğrencisiyim 
+      <p>Merhaba ben <code>Necati ARMAN</code> 12. sınıf öğrencisiyim 
         üniversite sınavına hazırlanıyorum ve boş zamanlarım da ise program
         yazmak yada web siteleri ile ilgileniyorum. Sosyal medyadan takip etmeyi unutmayın.
       </p>
@@ -32,6 +32,13 @@ const about = () => (
     </script>
 
     <style jsx global>{`
+    code {
+      padding: 2px 4px;
+      font-size: 90%;
+      color: red;
+       background-color: black;
+      border-radius: 4px;
+    }
     .foto:hover{
       -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
       filter: grayscale(100%);

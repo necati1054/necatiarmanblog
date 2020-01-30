@@ -35,16 +35,16 @@ Sıralı
 
 Girinti ekleyebilirsin:
 
-    // bu bir yorum satırı
-    line 1 of code
-    line 2 of code
-    line 3 of code
+bu bir yorum satırı
++ line 1 of code
++ line 2 of code
++ line 3 of code
 
 Ya da bu üç tik kullanabilirsin:
 
-```
+
 Sample text here...
-```
+
 
 Daha fazlası için: https://markdown-it.github.io/
 
