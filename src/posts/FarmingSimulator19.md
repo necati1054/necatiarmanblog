@@ -1,6 +1,6 @@
 Farming Simulator 19 Ücretsiz Oldu.
 
-Bildiğimiz gibi Epic Games her hafta 1 tane oyun bedava vereceğini açıklmaıştı işte bu sefer ki oyunumuz 100TL değerindeki Farming Simulator 19 oldu.
+Bildiğimiz gibi Epic Games her hafta 1 tane oyun bedava vereceğini açıklamıştı işte bu sefer ki oyunumuz 100TL değerindeki Farming Simulator 19 oldu.
 
 `Peki nasıl bedava alacağız?`
 
