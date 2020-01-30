@@ -1,5 +1,20 @@
 export const getPosts = () => {
-  return [
+  return [    {
+    title: "Farming Simulator 19",
+    slug: "Farming Simulator 19",
+    details: "Farming Simulator 19 Bedava oldu",
+    date: "31 Ocak 2020",
+    link: require("./posts/FarmingSimulator19.md").default,
+    photo: "https://www.merlininkazani.com/images/games/12126/109799_640.jpg"
+  },
+    {
+      title: "Instagram Hashtagleri",
+      slug: "instagram",
+      details: "En Popüler Instagram Hashtagleri.",
+      date: "31 Ocak 2020",
+      link: require("./posts/instagram.md").default,
+      photo: "https://www.log.com.tr/wp-content/uploads/2017/11/instagram-fotograflarina-en-uygun-etiketi-koyan-yapay-zeka-3-660x371.jpg"
+    },
     {
       title: "yazı sitili",
       slug: "font",
