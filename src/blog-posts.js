@@ -1,5 +1,14 @@
 export const getPosts = () => {
-  return [    {
+  return [
+    {
+      title: "Epic Games",
+      slug: "Epic Games",
+      details: "Epic Games Üzerinden oynayabilceğiniz ücretesiz oyunlar.",
+      date: "1 Şubat 2020",
+      link: require("./posts/EpicGames.md").default,
+      photo: "https://static-assets-prod.epicgames.com/epic-store/static/webpack/25c285e020572b4f76b770d6cca272ec.png"
+    },
+    {
     title: "Farming Simulator 19",
     slug: "Farming Simulator 19",
     details: "Farming Simulator 19 Bedava oldu",

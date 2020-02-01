@@ -16,6 +16,7 @@ const Home = ({ posts }) => (
       <script data-ad-client="ca-pub-2037585543989384" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156792922-1"></script>
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"></link>
       </Head>
     {posts.map(post => {
     return (<div className="blog" data-aos="zoom-out">
@@ -30,7 +31,7 @@ const Home = ({ posts }) => (
         <div className="blog-text">
           <ReactMarkdown source={post.details} />
         </div>
-        <div className="blog-date">{post.date}</div>
+    <i className="far fa-calendar-alt"> {post.date} </i>
         <a href={post.slug}><div className="blog-dev-oku">Okumaya Devam Et</div></a>
       </div>);
     })}
@@ -71,6 +72,14 @@ const Home = ({ posts }) => (
       padding: 0 5px 5px 0;
       font-size:20px;
     }
+    .far{
+      position:relative;
+      left:45%;
+      text-align: right;
+      color: red;
+      padding: 0 5px 5px 0;
+      font-size:20px;
+    }
     a {
       color: #FF00FF;;
       text-decoration: none;
@@ -97,7 +106,6 @@ const Home = ({ posts }) => (
     body {
       background-color: #A67665;
       margin-top: 0px;
-      
     }
     .blog-dev-oku{
       text-align: right;
@@ -131,6 +139,10 @@ const Home = ({ posts }) => (
       .blog img {
         width: 100%;
         height: 50%;
+      }
+      .far{
+        position:relative;
+        left:60%;
       }
     }
     `}</style>
