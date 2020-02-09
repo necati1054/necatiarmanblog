@@ -9,7 +9,7 @@ const menu = () => (
     <a href="/index"><img className="başlık" src="neco.png"></img></a>
     </div>
       <div className="hero-social-links">
-        <Link  href="https://www.instagram.com/necati_arman_offical/">
+        <Link  href="https://www.instagram.com/necatiarmann/">
           <a className="social-link" target="_blank" >Instagram</a>
         </Link>
         <Link href="https://www.facebook.com/profile.php?id=100003946455226">

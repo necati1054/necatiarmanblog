@@ -22,7 +22,7 @@ const contac = () => (
       <hr className="czg1"></hr>
       <ul> 
         <li data-aos="zoom-out"><a target="_blank" href="https://www.facebook.com/profile.php?id=100003946455226"><i className="fab fa-facebook"></i></a></li>
-        <li data-aos="zoom-out"><a target="_blank" href="https://www.instagram.com/necati_arman_offical/"><i className="fab fa-instagram"></i></a></li>
+        <li data-aos="zoom-out"><a target="_blank" href="https://www.instagram.com/necatiarmann/"><i className="fab fa-instagram"></i></a></li>
         <li data-aos="zoom-out"><a href="https://api.whatsapp.com/send?phone=905531883296"><i className="fab fa-whatsapp"></i></a></li>
         <li data-aos="zoom-out"><a href="tel:553-188-3296"><i className="fas fa-mobile"></i></a></li>
         <li data-aos="zoom-out"><a href="mailto:necati.arman1054@gmail.com"><i className="fas fa-at"></i></a></li>
